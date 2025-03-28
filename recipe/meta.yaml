@@ -1,5 +1,5 @@
 {% set name = "igrafx-mining-sdk" %}
-{% set version = "2.34.2" %}
+{% set version = "2.35.3" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/igrafx_mining_sdk-{{ version }}.tar.gz
-  sha256: 3a4278c04bf8ecf7ff466c9a94e18ceb0634adbbc90fe79d3ed8021a8df4876d
+  sha256: 76ed6ed14c297876413bb76f684c92a6acc74bea55d28d6479b0944002cc432a
 
 build:
   number: 0
